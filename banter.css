@@ -1,0 +1,12 @@
+@font-face{
+    font-family:"Catamaran";
+    src:url("Catamaran-Black.ttf");
+    font-family: "Catamaran-Black.ttf";
+    text-transform:lowercase;
+    color:black;
+    font-weight:900;
+    letter-spacing: 2px;
+    font-size:2.5rem;
+    line-height: 1.1;
+    margin:0.67em 0;   
+}
