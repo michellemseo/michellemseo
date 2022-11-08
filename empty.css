@@ -1,0 +1,119 @@
+#still_life_canvas{
+    width:1500px;
+    height:800px;
+    background-color: #ddccdd;
+}
+#rubberband{
+    position:absolute;
+    top:50%;
+    left:30%;
+    width: 100px;
+    height:60px;
+    border:beige solid 5px;
+    border-radius: 50%;
+}
+#pencil{
+    position:absolute;
+    left:30%;
+    top:40%;
+    width: 500px;
+    height: 20px;
+    background-color:aliceblue;    
+}
+#pencil-body{
+    position:absolute;
+    left:30px;
+    height:100%;
+    width:450px;
+    background-color:darkgreen;    
+}
+#tip{
+    box-sizing: border-box;
+    position:absolute;
+    left:480px;
+    height:100%;
+    width:140px;
+    /*border:1px solid black;*/
+    border-left:70px solid rgba(200,180,150,1);
+    border-right:70px solid rgba (0,0,0,0);
+    border-top:10px solid rgba (0,0,0,0);
+    border-bottom:10px solid rgba (0,0,0,0);
+}
+#metal{
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:30px;
+    height:100%;
+    background-image:linear-gradient(to bottom,
+    rgba(10,10,10,1), rgba(225,225,225,1),rgba(30,30,30,1));
+}
+#metal2{
+    position:absolute;
+    left:-3px;
+    top:0px;
+    width:6px;
+    height:100%;
+    background-image: linear-gradient(to bottom right, rgba(10,10,10,1), rgba(225,225,225,1),rgba(30,30,30,1));
+    border-radius:50%;
+    z-index:1;
+}
+#peach{
+    position:absolute;
+    right:20px;
+    bottom:20px;
+    width:180px;
+    height:150px;
+    background-color:white;
+}
+#peach-left{
+    position:absolute;
+    left:0;
+    top:0;
+    width:60%;
+    height:100%;
+    background-color:red;
+    border-top-left-radius:100% 60%;
+    border-bottom-left-radius: 30% 30%;
+    border-bottom-right-radius:15% 10%;
+    background-image:linear-gradient(to bottom,#ff8888,#ffff88)
+}
+#peach-right{
+    position:absolute;
+    left:60%;
+    top:0;
+    width:40%;
+    height:100%;
+    background-color:yellow;
+    border-top-right-radius: 100% 60%;
+    border-bottom-right-radius: 30% 30%;
+    border-bottom-left-radius: 15% 10%;
+    background-image: linear-gradient(to bottom,#ff8888,#ffff88)    
+}
+#water-bottle{
+    position:absolute;
+    top:-30px;
+    left:40px;
+    width:180px;
+    height:400px;
+    background-color:#dddddd;
+}
+#bottle-body{
+    position:absolute;
+    bottom:0;
+    left: 0;
+    width:100%;
+    height:90%;
+    background-image: linear-gradient(to right,#888888,#bbbbbb,#888888);
+    border-bottom-left-radius: 50% 20px;
+    border-bottom-right-radius:50% 20px;
+}
+#bottle-body-bottom{
+    background-color:black;
+    position:absolute;
+    left:0;
+    bottom:0;
+    width:100%;
+    height:40px;
+    border-radius:50%;
+}
