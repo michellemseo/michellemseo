@@ -1,6 +1,7 @@
 * {
   font-family: helvetica, arial, sans-serif;
   font-size: 3.7rem;
+    color: deepskyblue;
 }
 
 body {
@@ -32,10 +33,10 @@ h2 {
     text-shadow: 0 0 black;
   }
   25% {
-    text-shadow: 1px 0 black, 2px 0 black, 3px 0 black, 4px 0 black, 5px 0 black;
+    text-shadow: 50px 0 orangered, 2px 0 orangered, 3px 0 orangered, 4px 0 orangered, 5px 0 orangered;
   }
   50% {
-    text-shadow: 0 0 black;
+    text-shadow: 0 0 orangered;
   }
   75% {
     text-shadow: -1px 0 black, -2px 0 black, -3px 0 black, -4px 0 black,
@@ -45,3 +46,5 @@ h2 {
     text-shadow: 0 0 black;
   }
 }
+
+

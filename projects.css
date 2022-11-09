@@ -1,6 +1,7 @@
 * {
   font-family: helvetica, arial, sans-serif;
   font-size: 4.3rem;
+    color: deeppink;
 }
 body {
   perspective: 2950px;
@@ -27,7 +28,7 @@ h2 {
     text-shadow: 0 0 black;
   }
   20% {
-    text-shadow: 1px 0 black, 2px 0 black, 3px 0 black, 4px 0 black, 5px 0 black;
+    text-shadow: 50px 0 black, 2px 0 black, 3px 0 black, 4px 0 black, 5px 0 black;
   }
   50% {
     text-shadow: 0 0 black;
