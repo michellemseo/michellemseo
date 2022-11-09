@@ -4,7 +4,7 @@
     color: deeppink;
 }
 body {
-  perspective: 2950px;
+  perspective: 8000px;
 }
 /* clear background */
 h2 {
@@ -28,7 +28,7 @@ h2 {
     text-shadow: 0 0 black;
   }
   20% {
-    text-shadow: 50px 0 black, 2px 0 black, 3px 0 black, 4px 0 black, 5px 0 black;
+    text-shadow: 1px 0 black, 2px 0 black, 3px 0 black, 4px 0 black, 5px 0 black;
   }
   50% {
     text-shadow: 0 0 black;
