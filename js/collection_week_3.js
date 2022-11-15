@@ -11,7 +11,7 @@ for(let i = 0; i<6; i++){
     
     $("#square" + i).css({"position":"absolute", "top":positiontop + "%"})
      $("#square" + i).css({"top":positiontop + "%"})
-    var positionleft = "calc("+ positionleft + "% - 100px)";
+    positionleft = "calc("+ positionleft + "% - 100px)";
     console.log(positionleft);
     $("#square" + i).css({"left":positionleft});
     $("#square" + i).css({"background-color":chosenColor});
