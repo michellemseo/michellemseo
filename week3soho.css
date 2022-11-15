@@ -20,3 +20,16 @@
     transform: scale(0, 0);
   }
 }
+
+body{background-color: hotpink;}
+
+    .p1 {font-family: "Arial Black", "Arial Black", monospace;}
+    .p1 {font-size: 250%;}
+    .p1thick {font-weight: bold;}
+    .p2 {font-family: "Arial", "Arial", monospace;}
+    .p2 {font-size: 100%;}
+    .center {
+  padding: 235px 0;
+  border: 2px solid black;
+  text-align: center;
+        image-orientation: {display: block;margin-left: auto;margin-right: auto;}
