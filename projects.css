@@ -4,7 +4,7 @@
     color: deeppink;
 }
 body {
-  perspective: 8000px;
+  perspective: 80000;
 }
 /* clear background */
 h2 {

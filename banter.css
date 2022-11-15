@@ -1,3 +1,7 @@
-h1{
-    font-family:"Catamaran" sans-serif;
+@font-face{
+    font-family:"Catamaran";
+    src: url(fonts/Catamaran-VariableFont_wght.ttf);
+}
+body{
+    font-family: "Catamaran", sans-serif;
 }
