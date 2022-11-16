@@ -10,7 +10,7 @@ body{
     width: 100%;
     font-family: "Arial Black", "Arial", monospace;
     color: white;
-    background: black;
+    background: #9e9d24;
     height: 90px;
 }
 
@@ -23,7 +23,7 @@ body{
     width: 12%;
     height: 120px;
     padding: 5px;
-    background-color: white;
+    background-color: black;
     display: inline-block;
     margin: 10px;
     font-size: 12px;
