@@ -1,14 +1,13 @@
 @font-face{
-    font-family: "Arial-Black";
-    src: url(arialblack.ttf);
+    font-family: "helvetica", sans-serif;
 }
 
 body{
-    font-family: "Arial-Black";
+    font-family: "helvetica", sans-serif;
 }
 .shapes {
     width: 100%;
-    font-family: "Arial Black", "Arial", monospace;
+    font-family: "helvetica", sans-serif;
     color: white;
     background: #9e9d24;
     height: 90px;
